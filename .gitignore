@@ -1,6 +1,19 @@
+<<<<<<< HEAD
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/captures
+=======
 # Built application files
 *.apk
 *.ap_
+
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the following:
 
 # Files for the Dalvik VM
 *.dex
