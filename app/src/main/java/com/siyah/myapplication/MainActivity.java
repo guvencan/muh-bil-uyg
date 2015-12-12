@@ -5,14 +5,19 @@ import android.app.Fragment;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.FrameLayout;
 
 import com.siyah.myapplication.Fragment.Sekil10Fragment;
 import com.siyah.myapplication.Fragment.Sekil11Fragment;
@@ -58,14 +63,33 @@ public class MainActivity extends AppCompatActivity
         fragmentTransaction.commit();
     }
 
+
+
+    boolean doubleBackToExitPressedOnce = false;
+
     @Override
     public void onBackPressed() {
-        DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        if (drawer.isDrawerOpen(GravityCompat.START)) {
-            drawer.closeDrawer(GravityCompat.START);
-        } else {
+        if (doubleBackToExitPressedOnce) {
             super.onBackPressed();
+            return;
         }
+
+        this.doubleBackToExitPressedOnce = true;
+        Snackbar snack =Snackbar.make(findViewById(android.R.id.content), "Çıkmak için tekrar basınız !", Snackbar.LENGTH_SHORT);
+        View view = snack.getView();
+        view.setBackgroundColor(getResources().getColor(R.color.colorPrimaryDark));
+        FrameLayout.LayoutParams params = (FrameLayout.LayoutParams) view.getLayoutParams();
+        params.gravity = Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM;
+        view.setLayoutParams(params);
+        snack.show();
+
+        new Handler().postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                doubleBackToExitPressedOnce = false;
+            }
+        }, 2000);
     }
 
     @Override
