@@ -4,52 +4,67 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/sekil1"
-            android:icon="@drawable/game"
+            android:icon="@drawable/ico1"
             android:title="Katı Dairesel Plaka" />
         <item
             android:id="@+id/sekil2"
+            android:icon="@drawable/ico2"
             android:title="Katı Eliptik Plaka" />
         <item
             android:id="@+id/sekil3"
+            android:icon="@drawable/ico3"
             android:title="Katı Kare Plaka" />
         <item
             android:id="@+id/sekil4"
+            android:icon="@drawable/ico4"
             android:title="Katı Dikdörtgen Plaka" />
         <item
             android:id="@+id/sekil5"
+            android:icon="@drawable/ico5"
             android:title="Katı Eşkenar Üçgen Plaka" />
         <item
             android:id="@+id/sekil6"
+            android:icon="@drawable/ico6"
             android:title="Katı İkizkenar Üçgen Plaka" />
         <item
             android:id="@+id/sekil7"
+            android:icon="@drawable/ico7"
             android:title="Katı Altıgen Plaka" />
         <item
             android:id="@+id/sekil8"
+            android:icon="@drawable/ico8"
             android:title="Eş Kalınlıkta İnce Tüp" />
         <item
             android:id="@+id/sekil9"
+            android:icon="@drawable/ico9"
             android:title="İçi Boş Eliptik Plaka" />
         <item
             android:id="@+id/sekil10"
+            android:icon="@drawable/ico10"
             android:title="İnce Çeperli İçi Boş Dikdörtgen Plaka" />
         <item
             android:id="@+id/sekil11"
+            android:icon="@drawable/ico11"
             android:title="Eş Kalınlıkta İnce Açık Tüp" />
         <item
             android:id="@+id/sekil12"
+            android:icon="@drawable/ico12"
             android:title="H Şekilli Plaka" />
         <item
             android:id="@+id/sekil13"
+            android:icon="@drawable/ico13"
             android:title="L Şekilli Plaka" />
         <item
             android:id="@+id/sekil14"
+            android:icon="@drawable/ico14"
             android:title="T Şekilli Plaka" />
         <item
             android:id="@+id/sekil15"
+            android:icon="@drawable/ico15"
             android:title="U Şekilli Plaka" />
         <item
             android:id="@+id/sekil16"
+            android:icon="@drawable/ico16"
             android:title="+ Şekilli Plaka" />
 
 
