@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/sekil1"
+            android:icon="@drawable/game"
+            android:title="Katı Dairesel Plaka" />
+        <item
+            android:id="@+id/sekil2"
+            android:title="Katı Eliptik Plaka" />
+        <item
+            android:id="@+id/sekil3"
+            android:title="Katı Kare Plaka" />
+        <item
+            android:id="@+id/sekil4"
+            android:title="Katı Dikdörtgen Plaka" />
+        <item
+            android:id="@+id/sekil5"
+            android:title="Katı Eşkenar Üçgen Plaka" />
+        <item
+            android:id="@+id/sekil6"
+            android:title="Katı İkizkenar Üçgen Plaka" />
+        <item
+            android:id="@+id/sekil7"
+            android:title="Katı Altıgen Plaka" />
+        <item
+            android:id="@+id/sekil8"
+            android:title="Eş Kalınlıkta İnce Tüp" />
+        <item
+            android:id="@+id/sekil9"
+            android:title="İçi Boş Eliptik Plaka" />
+        <item
+            android:id="@+id/sekil10"
+            android:title="İnce Çeperli İçi Boş Dikdörtgen Plaka" />
+        <item
+            android:id="@+id/sekil11"
+            android:title="Eş Kalınlıkta İnce Açık Tüp" />
+        <item
+            android:id="@+id/sekil12"
+            android:title="H Şekilli Plaka" />
+        <item
+            android:id="@+id/sekil13"
+            android:title="L Şekilli Plaka" />
+        <item
+            android:id="@+id/sekil14"
+            android:title="T Şekilli Plaka" />
+        <item
+            android:id="@+id/sekil15"
+            android:title="U Şekilli Plaka" />
+        <item
+            android:id="@+id/sekil16"
+            android:title="+ Şekilli Plaka" />
+
+
+    </group>
+
+
+
+</menu>

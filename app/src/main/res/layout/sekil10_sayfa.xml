@@ -55,6 +55,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/editText45"
+            android:inputType="numberDecimal"
             android:layout_weight="0.47" />
 
         <TextView
@@ -86,6 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/editText46"
+            android:inputType="numberDecimal"
             android:layout_weight="0.49" />
 
         <TextView
@@ -117,6 +119,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/editText47"
+            android:inputType="numberDecimal"
             android:layout_weight="0.47" />
 
         <TextView
@@ -148,6 +151,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/editText48"
+            android:inputType="numberDecimal"
             android:layout_weight="0.49" />
 
         <TextView
@@ -179,6 +183,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/editText49"
+            android:inputType="numberDecimal"
             android:layout_weight="0.49" />
 
         <TextView
@@ -230,6 +235,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/editText50"
             android:layout_weight="0.46"
+            android:inputType="numberDecimal"
             android:layout_marginLeft="3dp"
             android:editable="false" />
 
@@ -263,6 +269,7 @@
             android:layout_height="wrap_content"
             android:id="@+id/editText51"
             android:layout_weight="0.51"
+            android:inputType="numberDecimal"
             android:layout_marginLeft="5dp"
             android:editable="false" />
 
@@ -295,6 +302,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
             android:id="@+id/editText52"
             android:layout_weight="0.51"
             android:layout_marginLeft="5dp"

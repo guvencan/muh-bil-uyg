@@ -86,12 +86,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/editText88"
+            android:inputType="numberDecimal"
             android:layout_weight="1"
             android:layout_marginRight="20dp" />
 
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
             android:id="@+id/editText89"
             android:layout_weight="1"
             android:layout_marginRight="20dp" />
@@ -99,6 +101,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
             android:id="@+id/editText90"
             android:layout_weight="1"
             android:layout_marginRight="20dp" />
@@ -130,6 +133,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
             android:id="@+id/editText91"
             android:layout_weight="1"
             android:layout_marginRight="20dp" />
@@ -137,6 +141,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
             android:id="@+id/editText92"
             android:layout_weight="1"
             android:layout_marginRight="20dp" />
@@ -144,6 +149,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
             android:id="@+id/editText93"
             android:layout_weight="1"
             android:layout_marginRight="20dp" />
@@ -176,6 +182,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
             android:id="@+id/editText94"
             android:layout_weight="0.49" />
 
@@ -226,6 +233,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
             android:id="@+id/editText95"
             android:layout_weight="0.46"
             android:layout_marginLeft="3dp"
@@ -259,6 +267,7 @@
         <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
             android:id="@+id/editText96"
             android:layout_weight="0.51"
             android:layout_marginLeft="5dp"
